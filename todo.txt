@@ -1,0 +1,10 @@
+- layer control DONE
+- map url hash DONE
+  - coordinates + layer + overlay DONE
+- mouse over coordinates DONE
+
+
+
+- saving markers and paths to database
+  - saving to db
+  - loading from db
