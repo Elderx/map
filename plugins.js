@@ -63,7 +63,8 @@ var editableLayers = new L.FeatureGroup();
 
             let overlays = {
 							"Hiking": hiking_Overlay,
-							"Geocaches": geocaches_Overlay
+							"Geocaches": geocaches_Overlay,
+							"editable": editableLayers
             };
 
             var allMapLayers = { 'mapbox_grayscale': mapbox_light,
