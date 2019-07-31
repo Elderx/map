@@ -62,7 +62,8 @@ var editableLayers = new L.FeatureGroup();
             };
 
             let overlays = {
-              "Editable": editableLayers
+							"Hiking": hiking_Overlay,
+							"Geocaches": geocaches_Overlay
             };
 
             var allMapLayers = { 'mapbox_grayscale': mapbox_light,
@@ -76,7 +77,9 @@ var editableLayers = new L.FeatureGroup();
 												'thunderforest_outdoors': thunderforest_outdoors,
 												'thunderforest_landscape': thunderforest_landscape,
 												'thunderforest_transport': thunderforest_transport,
+												'hiking_Overlay': hiking_Overlay,
 												'mbt': mbt,
+												'geocaches_Overlay': geocaches_Overlay,
                         'editable': editableLayers
             					};
             L.hash(map, allMapLayers);

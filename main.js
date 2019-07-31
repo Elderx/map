@@ -42,6 +42,23 @@ var mbt = L.tileLayer('http://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png', {
 });
 
 
+// Waymarked Trails
+
+let hiking_Overlay = new L.TileLayer('http://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png', {
+	attribution: '',
+	maxZoom: 18
+});
+
+// Geocaches
+
+let geocaches_Overlay = new L.TileLayer('http://{s}.geocaching.com/map.png?x={x}&y={y}&z={z}&k=TT4f&st=&ep=1', {
+	attribution: 'Geocaching.com',
+	maxZoom: 18,
+	subdomains: ['tiles01', 'tiles02', 'tiles03', 'tiles04']
+});
+
+
+
 
 let map = L.map('map', {
 		center: [63.568, 27.181],
