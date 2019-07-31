@@ -58,8 +58,6 @@ let geocaches_Overlay = new L.TileLayer('http://{s}.geocaching.com/map.png?x={x}
 });
 
 
-
-
 let map = L.map('map', {
 		center: [63.568, 27.181],
 		zoom: 13,
